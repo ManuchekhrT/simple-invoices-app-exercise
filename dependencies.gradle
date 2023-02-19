@@ -1,0 +1,65 @@
+ext {
+    //Version
+    core = '1.9.0'
+    appcompat = '1.6.0'
+    material = '1.7.0'
+    constraintlayout = '2.1.4'
+    fragmentKtx = '1.5.5'
+    lifecycleVersion = '2.5.1'
+    testExtJunit = '1.1.5'
+    espressoCore = '3.5.1'
+    timber = '5.0.1'
+
+    androidXDependencies = [
+            core                 : "androidx.core:core-ktx:${core}",
+            appcompat            : "androidx.appcompat:appcompat:${appcompat}",
+            material             : "com.google.android.material:material:${appcompat}",
+            constraintlayout     : "androidx.constraintlayout:constraintlayout:${constraintlayout}",
+
+            fragmentKtx          : "androidx.fragment:fragment-ktx:${fragmentKtx}",
+            lifecycleViewModelKtx: "androidx.lifecycle:lifecycle-viewmodel-ktx:${lifecycleVersion}",
+            lifecycleRuntimeKtx  : "androidx.lifecycle:lifecycle-runtime-ktx:${lifecycleVersion}",
+            lifecycleLiveDataKtx : "androidx.lifecycle:lifecycle-livedata-ktx:${lifecycleVersion}",
+
+            testExtJunit         : "androidx.test.ext:junit:${testExtJunit}",
+            espressoCore         : "androidx.test.espresso:espresso-core:${espressoCore}"
+    ]
+
+    timberDependency = [
+            timber: "com.jakewharton.timber:timber:${timber}",
+    ]
+
+    retrofit = '2.9.0'
+    retrofitDependencies = [
+            retrofit     : "com.squareup.retrofit2:retrofit:${retrofit}",
+            converterGson: "com.squareup.retrofit2:converter-gson:${retrofit}"
+    ]
+
+    okhttpLogging = '4.10.0'
+    okhttpDependencies = [
+            loggingInterceptor: "com.squareup.okhttp3:logging-interceptor:${okhttpLogging}"
+    ]
+
+    hilt = '2.44.2'
+    hiltDependencies = [
+            hiltAndroid : "com.google.dagger:hilt-android:${hilt}",
+            hiltCompiler: "com.google.dagger:hilt-compiler:${hilt}"
+    ]
+
+    mockito = '4.10.0'
+    mockitoDependencies = [
+            mockitoCore   : "org.mockito:mockito-core:${mockito}",
+            mockitoAndroid: "org.mockito:mockito-android:${mockito}"
+    ]
+
+    navigation = '2.5.3'
+    navigationDependencies = [
+           'navigationFragmentKtx' : "androidx.navigation:navigation-fragment-ktx:${navigation}",
+           'navigationUiKtx' : "androidx.navigation:navigation-ui-ktx:${navigation}"
+    ]
+
+    junit = '4.13.2'
+    testsDependency = [
+            junit: "junit:junit:${junit}"
+    ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/InvoicesFragment">
+
+    <fragment
+        android:id="@+id/InvoicesFragment"
+        android:name="tj.test.simpleinvoicestakehome.presentation.InvoicesFragment"
+        android:label="Invoices"
+        tools:layout="@layout/fragment_invoices">
+        <action
+            android:id="@+id/action_InvoicesFragment_to_InvoiceFragment"
+            app:destination="@id/InvoiceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/InvoiceFragment"
+        android:name="tj.test.simpleinvoicestakehome.presentation.InvoiceFragment"
+        android:label="Invoice"
+        tools:layout="@layout/fragment_invoice" />
+
+</navigation>

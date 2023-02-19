@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_update"
+        android:title="@string/action_update"
+        android:icon="@drawable/ic_update"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_full_invoices"
+        android:title="@string/action_full_invoices"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_empty_invoices"
+        android:title="@string/action_empty_invoices"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_malformed_invoices"
+        android:title="@string/action_malformed_invoices"
+        app:showAsAction="never"/>
+</menu>

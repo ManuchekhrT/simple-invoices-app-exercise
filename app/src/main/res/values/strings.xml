@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SimpleInvoicesTakeHome</string>
+    <string name="action_update">Update</string>
+    <string name="action_more">See</string>
+    <string name="action_ok">OK</string>
+    <string name="action_full_invoices">Success response</string>
+    <string name="action_empty_invoices">Empty response</string>
+    <string name="action_malformed_invoices">Malformed error response</string>
+
+    <string name="invoice_quantity">x%1$s</string>
+    <string name="invoice_price">%1$s Cent</string>
+    <string name="invoice_total_price">%1$s Cent (%2$s $)</string>
+    <string name="invoice_date">Invoice Date: %1$s</string>
+
+    <string name="total">Total:</string>
+
+    <string name="unexpected_error">Unexpected error %1$s</string>
+    <string name="empty_list">Empty response list</string>
+</resources>
